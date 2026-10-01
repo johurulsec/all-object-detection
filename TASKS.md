@@ -1,0 +1,22 @@
+# Tasks
+
+- [x] Environment check (CPU only, 8 cores, 15 GB RAM)
+- [x] CLAUDE.md, ARCHITECTURE.md
+- [x] venv + CPU torch
+- [x] requirements.txt, all dependencies installed
+- [x] src/probe.py
+- [x] src/detect_track.py
+- [x] src/reid.py
+- [x] src/attributes.py
+- [x] src/cluster.py
+- [x] extract.py CLI
+- [x] Quick test (`--max-frames 30`) on testVideos/test-vid.mp4
+- [ ] Full run, review crops and attributes
+- [x] README usage notes
+- [x] Download YouTube test video into testVideos/ (shopping-mall-7LpvUZFU2TA.mp4, 720p, 10 min)
+- [x] Replace CLIP ReID with OSNet (MSMT17 weights); cosine clustering with time-overlap constraint
+- [x] Replace CLIP attributes with Market-1501 ResNet50 (12 attributes); spot-checked on 2 crops
+- [x] Full ffprobe dump + SHA-256, per-frame detections and embeddings saved
+- [ ] Tune --threshold on the full mall video (run in output_mall/)
+- [ ] Optional: PETA-trained model for the wider 61-attribute set
+- [ ] Optional: scene cuts, other objects, OCR, speech transcript

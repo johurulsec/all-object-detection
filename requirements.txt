@@ -1,0 +1,10 @@
+# Install torch/torchvision first from the CPU index:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+ultralytics
+opencv-python-headless
+numpy
+scikit-learn
+lap
+torchreid
+tensorboard
+gdown
